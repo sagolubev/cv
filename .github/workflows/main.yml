@@ -1,0 +1,48 @@
+name: publish
+
+on:
+  push:
+    branches:
+    - deploy
+    - master
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-18.04
+    steps:
+    - name: Checkout branch "deploy"
+      uses: actions/checkout@v2
+      with:
+        ref: 'deploy'
+      
+    - name: Checkout submodules
+      shell: bash
+      run: |
+        auth_header="$(git config --local --get http.https://github.com/.extraheader)"
+        git submodule sync --recursive
+        git -c "http.extraheader=$auth_header" -c protocol.version=2 submodule update --init --force --recursive --depth=1
+
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: '0.79.0'
+        extended: true
+
+    - name: Build
+      run: hugo --minify
+      
+    - name: Copy readme
+      run: |
+        cp ./README.md ./public/README.md
+    
+    - name: Copy images
+      run: |
+        mkdir ./public/images
+        cp -r ./images/* ./public/images
+      
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v2
+      env:
+        PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+        PUBLISH_BRANCH: deployment
+        PUBLISH_DIR: ./public
