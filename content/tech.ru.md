@@ -5,7 +5,7 @@ slug = "tech"
 
 Программное обеспечение
 
-* Операционные системы: Windows Server, CentOS Linux
+* Операционные системы: CentOS Linux, Windows Server
 * Программирование: Bash, PowerShell, Python
 * Логи: ELK Stack, GreyLog, Loki+Grafana
 * Вебсерверы: nginx, IIS, Apache

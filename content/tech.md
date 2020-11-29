@@ -5,7 +5,7 @@ slug = "tech"
 
 Software
 
-* OS: Windows Server, CentOS Linux
+* OS: CentOS Linux, Windows Server
 * Programming: Bash, PowerShell, Python
 * Logs: ELK Stack, GreyLog, Loki+Grafana
 * Webservers: nginx, IIS, Apache
