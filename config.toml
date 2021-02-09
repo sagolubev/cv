@@ -1,4 +1,4 @@
-baseURL = "https://sigius.com/cv"
+baseURL = "https://clouds.re"
 languageCode = "en-us"
 title = "CV"
 theme = "hugo-coder"
