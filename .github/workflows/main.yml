@@ -3,17 +3,17 @@ name: publish
 on:
   push:
     branches:
-    - deploy
+    - deployment
     - master
 
 jobs:
   build-deploy:
     runs-on: ubuntu-18.04
     steps:
-    - name: Checkout branch "deploy"
+    - name: Checkout branch "deployment"
       uses: actions/checkout@v2
       with:
-        ref: 'deploy'
+        ref: 'deployment'
       
     - name: Checkout submodules
       shell: bash
