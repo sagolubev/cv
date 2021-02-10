@@ -16,7 +16,7 @@ slug = "tech"
 * Облака: Azure, AWS, GCP, Huawei Cloud
 * Виртуализация: MS Hyper-V+SCVMM, VmWare ESXi, KVM+Qemu, OpenStack, OpenNebula, Open vSwitch, oVirt
 * Софтверные хранилища данных: Ceph, Linstor, GlusterFS
-* Контейнеры: Docker
+* Контейнеры: Docker, podman
 * Контейнерная оркестрация: Docker Swarm, Marathon+Mesos, Kubernetes
 * Службы сообщений: RabbitMQ, Apache Kafka, MS ServiceBus
 * Утилиты сборки и релизов: Azure DevOps(TFS), Jenkins, Gitlab, GitHub Actions, TravisCI
