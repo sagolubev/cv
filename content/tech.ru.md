@@ -14,12 +14,12 @@ slug = "tech"
 * Мониторинг: Zabbix, Sensu, Prometheus+Grafana
 * Конфигурационные утилиты/инструменты: ansible, SCCM, terraform, packer
 * Облака: Azure, AWS, GCP, Huawei Cloud
-* Виртуализация: MS Hyper-V+SCVMM, VmWare ESXi, KVM+Qemu, OpenStack, OpenNebula, Open vSwitch
+* Виртуализация: MS Hyper-V+SCVMM, VmWare ESXi, KVM+Qemu, OpenStack, OpenNebula, Open vSwitch, oVirt
 * Софтверные хранилища данных: Ceph, Linstor, GlusterFS
 * Контейнеры: Docker
 * Контейнерная оркестрация: Docker Swarm, Marathon+Mesos, Kubernetes
 * Службы сообщений: RabbitMQ, Apache Kafka, MS ServiceBus
-* Утилиты сборки и релизов: TFS, Jenkins, Gitlab
+* Утилиты сборки и релизов: Azure DevOps(TFS), Jenkins, Gitlab, GitHub Actions, TravisCI
 
 Оборудование:
 

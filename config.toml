@@ -16,9 +16,9 @@ disqusShortname = "sagolubev"
 
 [params]
   author = "Sergey Golubev"
-  description = "Sergey Golubev's personal cv"
+  description = "Sergey Golubev's personal CV"
   keywords = "cv,personal,devops,cloud"
-  info = "System Engineer, DevOps"
+  info = "System Engineer, DevOps, SRE"
   avatarurl = "images/avatar.jpg"
   #gravatar = "sergey.golubev@live.ru"
   favicon_16 = "images/favicon-16x16.png"
@@ -89,7 +89,7 @@ disqusShortname = "sagolubev"
 
     [languages.ru.params]
       author = "Сергей Голубев"
-      info = "Системный инженер, DevOps"
+      info = "Системный инженер, DevOps, SRE"
       description = "Сергей Голубев, резюме"
       keywords = "cv,personal,devops,cloud"
       footercontent = "Exercitatio optimus est magister. (Практика - лучший учитель., лат.)"
