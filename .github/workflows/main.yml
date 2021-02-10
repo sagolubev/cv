@@ -39,8 +39,9 @@ jobs:
         mkdir ./public/images
         cp -r ./images/* ./public/images
 
-    - name: Create CNAME
-      run: echo "clouds.re" > ./public/CNAME
+    - name: Copy CNAME
+      run: |
+        cp CNAME ./public/CNAME
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v2
