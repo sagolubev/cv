@@ -3,14 +3,13 @@ name: publish
 on:
   push:
     branches:
-    - deployment
     - master
 
 jobs:
   build-deploy:
     runs-on: ubuntu-18.04
     steps:
-    - name: Checkout branch "deployment"
+    - name: Checkout branch "master"
       uses: actions/checkout@v2
       with:
         ref: 'master'
@@ -39,6 +38,10 @@ jobs:
       run: |
         mkdir ./public/images
         cp -r ./images/* ./public/images
+
+   - name: Create CNAME
+      run: |
+        echo "clouds.re" > CNAME
       
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v2
