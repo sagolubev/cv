@@ -20,13 +20,16 @@ disqusShortname = "sagolubev"
   keywords = "cv,personal,devops,cloud"
   info = "System Engineer, DevOps"
   avatarurl = "images/avatar.jpg"
+  #gravatar = "sergey.golubev@live.ru"
   favicon_16 = "images/favicon-16x16.png"
+  favicon_32 = "images/favicon-32x32.png"
   footercontent = "Exercitatio optimus est magister. (Practice is the best teacher., lat.)"
 
   dateformat = "2006, January 2"
 
   hideCredits = true
   hideCopyright = true
+  since = 2005
 
   rtl = false
 
@@ -35,6 +38,9 @@ disqusShortname = "sagolubev"
   # Series see also post count
   maxSeeAlsoItems = 5
 
+  # Enable Twemoji
+  enableTwemoji = true
+
 [taxonomies]
   category = "categories"
   series = "series"
@@ -42,22 +48,22 @@ disqusShortname = "sagolubev"
 
 [[params.social]]
   name = "Github"
-  icon = "fab fa-github"
+  icon = "fa fa-github"
   weight = 1
   url = "https://github.com/sagolubev/"
 [[params.social]]
   name = "Facebook"
-  icon = "fab fa-facebook"
+  icon = "fa fa-facebook"
   weight = 2
   url = "https://facebook.com/sagolubev/"
 [[params.social]]
   name = "Twitter"
-  icon = "fab fa-twitter"
+  icon = "fa fa-twitter"
   weight = 3
   url = "https://twitter.com/sagolubev/"
 [[params.social]]
   name = "LinkedIn"
-  icon = "fab fa-linkedin"
+  icon = "fa fa-linkedin"
   weight = 4
   url = "https://www.linkedin.com/in/sagolubev/"
 
