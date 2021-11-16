@@ -3,7 +3,7 @@ title = "About Me"
 slug = "about"
 +++
 
-Information technology professional with 14+ years of experience in designing, implementing and operating IT solutions with varying complexity.
+Information technology professional with 15+ years of experience in designing, implementing and operating IT solutions with varying complexity.
 
 Strong expertise in planning, performance monitoring, troubleshooting, tuning, maintaining and disaster recovery in a complex distributed environment. 
 
