@@ -44,7 +44,7 @@ jobs:
         cp CNAME ./public/CNAME
 
     - name: Deploy
-      uses: peaceiris/actions-gh-pages@v2
+      uses: peaceiris/actions-gh-pages@v3
       env:
         PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
         PUBLISH_BRANCH: deployment
