@@ -1,5 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CV</title><link>https://clouds.re/</link><description>Recent content on CV</description><generator>Hugo</generator><language>en</language><atom:link href="https://clouds.re/index.xml" rel="self" type="application/rss+xml"/><item><title>About Me</title><link>https://clouds.re/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://clouds.re/about/</guid><description>Information technology professional with 16+ years of experience in designing, implementing and operating IT solutions with varying complexity.
-Strong expertise in planning, performance monitoring, troubleshooting, tuning, maintaining and disaster recovery in a complex distributed environment.
-I have a passion for infrastructure automation and helping developers to deliver their code to production.
-Motivated team player with excellent communication and management skills.</description></item><item><title>Technologies</title><link>https://clouds.re/tech/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://clouds.re/tech/</guid><description>Software
-OS: CentOS Linux, Windows Server Programming: Bash, PowerShell, Python Logs: ELK Stack, GreyLog, Loki+Grafana Webservers: nginx, IIS, Apache RDBMS: MS SQL, MySQL, PostgreSQL NoSQL: Apache Cassandra, MongoDB Monitoring: Zabbix, Sensu, Prometheus+Grafana Configuration tools: ansible, SCCM, terraform, packer Clouds: Azure, AWS, GCP, Huawei Cloud Virtualization: MS Hyper-V+SCVMM, VmWare ESXi, KVM+Qemu, OpenStack, OpenNebula, Open vSwitch, oVirt Software Defined Storage: Ceph, Linstor, GlusterFS Containers runtime: Docker, podman Containers orchestration: Docker Swarm, Marathon+Mesos, Kubernetes Message broker: RabbitMQ, Apache Kafka, MS ServiceBus Build and release tools: Azure DevOps(TFS), Jenkins, Gitlab, GitHub Actions, TravisCI Equipment:</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CV</title><link>https://clouds.re/</link><description>Recent content on CV</description><generator>Hugo</generator><language>en</language><atom:link href="https://clouds.re/index.xml" rel="self" type="application/rss+xml"/><item><title>About Me</title><link>https://clouds.re/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://clouds.re/about/</guid><description>&lt;p>Information technology professional with 16+ years of experience in designing, implementing and operating IT solutions with varying complexity.&lt;/p>
+&lt;p>Strong expertise in planning, performance monitoring, troubleshooting, tuning, maintaining and disaster recovery in a complex distributed environment.&lt;/p>
+&lt;p>I have a passion for infrastructure automation and helping developers to deliver their code to production.&lt;/p>
+&lt;p>Motivated team player with excellent communication and management skills.&lt;/p></description></item><item><title>Technologies</title><link>https://clouds.re/tech/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://clouds.re/tech/</guid><description>&lt;p>Software&lt;/p>
+&lt;ul>
+&lt;li>OS: CentOS Linux, Windows Server&lt;/li>
+&lt;li>Programming: Bash, PowerShell, Python&lt;/li>
+&lt;li>Logs: ELK Stack, GreyLog, Loki+Grafana&lt;/li>
+&lt;li>Webservers: nginx, IIS, Apache&lt;/li>
+&lt;li>RDBMS: MS SQL, MySQL, PostgreSQL&lt;/li>
+&lt;li>NoSQL: Apache Cassandra, MongoDB&lt;/li>
+&lt;li>Monitoring: Zabbix, Sensu, Prometheus+Grafana&lt;/li>
+&lt;li>Configuration tools: ansible, SCCM, terraform, packer&lt;/li>
+&lt;li>Clouds: Azure, AWS, GCP, Huawei Cloud&lt;/li>
+&lt;li>Virtualization: MS Hyper-V+SCVMM, VmWare ESXi, KVM+Qemu, OpenStack, OpenNebula, Open vSwitch, oVirt&lt;/li>
+&lt;li>Software Defined Storage: Ceph, Linstor, GlusterFS&lt;/li>
+&lt;li>Containers runtime: Docker, podman&lt;/li>
+&lt;li>Containers orchestration: Docker Swarm, Marathon+Mesos, Kubernetes&lt;/li>
+&lt;li>Message broker: RabbitMQ, Apache Kafka, MS ServiceBus&lt;/li>
+&lt;li>Build and release tools: Azure DevOps(TFS), Jenkins, Gitlab, GitHub Actions, TravisCI&lt;/li>
+&lt;/ul>
+&lt;p>Equipment:&lt;/p></description></item></channel></rss>

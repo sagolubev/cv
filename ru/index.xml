@@ -1,5 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Резюме</title><link>https://clouds.re/ru/</link><description>Recent content on Резюме</description><generator>Hugo</generator><language>ru</language><atom:link href="https://clouds.re/ru/index.xml" rel="self" type="application/rss+xml"/><item><title>Обо мне</title><link>https://clouds.re/ru/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://clouds.re/ru/about/</guid><description>Специалист по информационным технологиям с опытом работы более 16 лет, внедрение и эксплуатация ИТ-решений различной сложности.
-Имею большой опыт в планировании, мониторинге производительности, устранение неисправностей, настройке, обслуживании и восстановления после аварийный ситуаций в сложной распределенной среде.
-У меня есть страсть к автоматизации инфраструктуры и помогать разработчикам доставлять их код в продакшн.
-Мотивированный командный игрок с отличными навыками общения и управления.</description></item><item><title>Технологии</title><link>https://clouds.re/ru/tech/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://clouds.re/ru/tech/</guid><description>Программное обеспечение
-Операционные системы: CentOS Linux, Windows Server Программирование: Bash, PowerShell, Python Логи: ELK Stack, GreyLog, Loki+Grafana Вебсерверы: nginx, IIS, Apache Реляционные базы данных: MS SQL, MySQL, PostgreSQL NoSQL базы данных: Apache Cassandra, MongoDB Мониторинг: Zabbix, Sensu, Prometheus+Grafana Конфигурационные утилиты/инструменты: ansible, SCCM, terraform, packer Облака: Azure, AWS, GCP, Huawei Cloud Виртуализация: MS Hyper-V+SCVMM, VmWare ESXi, KVM+Qemu, OpenStack, OpenNebula, Open vSwitch, oVirt Софтверные хранилища данных: Ceph, Linstor, GlusterFS Контейнеры: Docker, podman Контейнерная оркестрация: Docker Swarm, Marathon+Mesos, Kubernetes Службы сообщений: RabbitMQ, Apache Kafka, MS ServiceBus Утилиты сборки и релизов: Azure DevOps(TFS), Jenkins, Gitlab, GitHub Actions, TravisCI Оборудование:</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Резюме</title><link>https://clouds.re/ru/</link><description>Recent content on Резюме</description><generator>Hugo</generator><language>ru</language><atom:link href="https://clouds.re/ru/index.xml" rel="self" type="application/rss+xml"/><item><title>Обо мне</title><link>https://clouds.re/ru/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://clouds.re/ru/about/</guid><description>&lt;p>Специалист по информационным технологиям с опытом работы более 16 лет, внедрение и эксплуатация ИТ-решений различной сложности.&lt;/p>
+&lt;p>Имею большой опыт в планировании, мониторинге производительности, устранение неисправностей, настройке, обслуживании и восстановления после аварийный ситуаций в сложной распределенной среде.&lt;/p>
+&lt;p>У меня есть страсть к автоматизации инфраструктуры и помогать разработчикам доставлять их код в продакшн.&lt;/p>
+&lt;p>Мотивированный командный игрок с отличными навыками общения и управления.&lt;/p></description></item><item><title>Технологии</title><link>https://clouds.re/ru/tech/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://clouds.re/ru/tech/</guid><description>&lt;p>Программное обеспечение&lt;/p>
+&lt;ul>
+&lt;li>Операционные системы: CentOS Linux, Windows Server&lt;/li>
+&lt;li>Программирование: Bash, PowerShell, Python&lt;/li>
+&lt;li>Логи: ELK Stack, GreyLog, Loki+Grafana&lt;/li>
+&lt;li>Вебсерверы: nginx, IIS, Apache&lt;/li>
+&lt;li>Реляционные базы данных: MS SQL, MySQL, PostgreSQL&lt;/li>
+&lt;li>NoSQL базы данных: Apache Cassandra, MongoDB&lt;/li>
+&lt;li>Мониторинг: Zabbix, Sensu, Prometheus+Grafana&lt;/li>
+&lt;li>Конфигурационные утилиты/инструменты: ansible, SCCM, terraform, packer&lt;/li>
+&lt;li>Облака: Azure, AWS, GCP, Huawei Cloud&lt;/li>
+&lt;li>Виртуализация: MS Hyper-V+SCVMM, VmWare ESXi, KVM+Qemu, OpenStack, OpenNebula, Open vSwitch, oVirt&lt;/li>
+&lt;li>Софтверные хранилища данных: Ceph, Linstor, GlusterFS&lt;/li>
+&lt;li>Контейнеры: Docker, podman&lt;/li>
+&lt;li>Контейнерная оркестрация: Docker Swarm, Marathon+Mesos, Kubernetes&lt;/li>
+&lt;li>Службы сообщений: RabbitMQ, Apache Kafka, MS ServiceBus&lt;/li>
+&lt;li>Утилиты сборки и релизов: Azure DevOps(TFS), Jenkins, Gitlab, GitHub Actions, TravisCI&lt;/li>
+&lt;/ul>
+&lt;p>Оборудование:&lt;/p></description></item></channel></rss>
