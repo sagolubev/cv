@@ -10,19 +10,13 @@ jobs:
     runs-on: aks-self-hosted
     steps:
     - name: Checkout branch "master"
-      uses: actions/checkout@v2
+      uses: actions/checkout@v7
       with:
         ref: 'master'
-
-    - name: Checkout submodules
-      shell: bash
-      run: |
-        auth_header="$(git config --local --get http.https://github.com/.extraheader)"
-        git submodule sync --recursive
-        git -c "http.extraheader=$auth_header" -c protocol.version=2 submodule update --init --force --recursive --depth=1
+        submodules: recursive
 
     - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2
+      uses: peaceiris/actions-hugo@v3
       with:
         hugo-version: '0.161.0'
         extended: true
@@ -44,7 +38,7 @@ jobs:
         cp CNAME ./public/CNAME
 
     - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
+      uses: peaceiris/actions-gh-pages@v4
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./public
