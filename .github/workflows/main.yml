@@ -7,7 +7,7 @@ on:
 
 jobs:
   build-deploy:
-    runs-on: aks-self-hosted
+    runs-on: ubuntu-latest
     steps:
     - name: Checkout branch "master"
       uses: actions/checkout@v7
